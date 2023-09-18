@@ -63,10 +63,22 @@ The project includes a function that shortens long Solana addresses for display.
 
 ## Command
 
-1.solana-keygen new -o /home/ursprash/.config/solana/id.json
-2.solana config set --url https://api.devnet.solana.com
-3.solana airdrop 1 <Public Key>
-4.solana balance
+1.
+ ```bash
+solana-keygen new -o /home/ursprash/.config/solana/id.json
+```
+2.
+ ```bash
+solana config set --url https://api.devnet.solana.com
+```
+3.
+ ```bash
+solana airdrop 1 <Public Key>
+```
+4.
+ ```bash
+solana balance
+```
 
 ## Contributors
 
