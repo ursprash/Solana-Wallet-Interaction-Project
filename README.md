@@ -62,20 +62,21 @@ The project includes a function that shortens long Solana addresses for display.
 - Make sure to use a Solana development network (e.g., Devnet) for testing, as sending real SOL tokens on the mainnet can result in financial loss.
 
 ## Command
+**Note:before all this command solana installed
 
-1.
+1.This command is used to generate a new Solana key pair (consisting of a public key and a secret key) and save it to a JSON file.
  ```bash
 solana-keygen new -o /home/ursprash/.config/solana/id.json
 ```
-2.
+2.This command is used to set the Solana cluster URL to the Devnet cluster.
  ```bash
 solana config set --url https://api.devnet.solana.com
 ```
-3.
+3.This command is used to request an airdrop of 1 SOL (Solana's native token) to a specified public key on the Solana blockchain.
  ```bash
 solana airdrop 1 <Public Key>
 ```
-4.
+4.This command is used to check the SOL token balance associated with the currently configured wallet.
  ```bash
 solana balance
 ```
