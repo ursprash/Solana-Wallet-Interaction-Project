@@ -16,7 +16,7 @@ This project is a simple web application that allows you to connect to a Solana 
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/ursprash/Solana-Wallet-Interaction-Project.git
    ```
 
 2. Open the `index.html` file in a web browser.
