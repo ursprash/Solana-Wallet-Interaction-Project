@@ -66,7 +66,7 @@ The project includes a function that shortens long Solana addresses for display.
 
 1.This command is used to generate a new Solana key pair (consisting of a public key and a secret key) and save it to a JSON file.
  ```bash
-solana-keygen new -o /home/ursprash/.config/solana/id.json
+solana-keygen new -o
 ```
 2.This command is used to set the Solana cluster URL to the Devnet cluster.
  ```bash
